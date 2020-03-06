@@ -11,8 +11,6 @@ void bubbleSort(int vector_entrada[], int n) {
         for(int j = 0; j < n - i - 1; j++) {
             if(vector_entrada[j] > vector_entrada[j + 1]) {
                 cambiar_pos(&vector_entrada[j],&vector_entrada[j + 1]);
-                printf("i = %d\n", i);
-                printf("j = %d\n\n", j);
             }
         }
     }
