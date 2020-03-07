@@ -25,7 +25,7 @@ int print_array(int vector_entrada[], int n) {
 
 int main(int argc, char const *argv[])
 {
-    int vector_entrada[] = {10, 5, 3333, 3};
+    int vector_entrada[] = {5,7,2,1,4,3,6};
     int n = sizeof(vector_entrada) / sizeof(vector_entrada[0]); 
 
     bubbleSort(vector_entrada, n);
