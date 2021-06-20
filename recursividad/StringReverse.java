@@ -11,7 +11,7 @@ public class StringReverse {
     }
     public static void main(String[] args) {
         StringReverse obj = new StringReverse();
-        String result = obj.reverseString("Aldo Said Salas Rodriguez");   
+        String result = obj.reverseString("Mensaje de prueba");   
         System.out.println(result); 
     }
 }
